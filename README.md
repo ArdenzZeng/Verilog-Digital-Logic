@@ -23,18 +23,15 @@ Verification was conducted utilizing custom Verilog testbenches to confirm accur
 ### Waveform Visualizations
 
 **8-Bit Adder Datapath Verification**
-*(Drop your 8-bit adder waveform image in the repo and update the path below)*
-`![8-Bit Adder Waveform](images/8bit_adder_waveform.png)`
+![8-Bit Adder Waveform](images/8bit_adder_waveform.png)
 > **Simulation Notes:** The waveform verifies multi-bit binary arithmetic, demonstrating accurate sum and carry-out generation across the 8-bit input vectors for both hierarchical and procedural architectures[cite: 12].
 
 **Edge-Triggered D Flip-Flop (MemBlock)**
-*(Drop your D flip-flop waveform image in the repo and update the path below)*
-`![D Flip-Flop Waveform](images/memblock_waveform.png)`
+![D Flip-Flop Waveform](images/memblock_waveform.png)
 > **Simulation Notes:** The simulation confirms the flip-flop properly captures the input data strictly on the rising edge of the clock, updating the primary output synchronously[cite: 7, 8].
 
 **Asynchronous SR Latch**
-*(Drop your SR Latch waveform image in the repo and update the path below)*
-`![SR Latch Waveform](images/latch_waveform.png)`
+![SR Latch Waveform](images/latch_waveform.png)
 > **Simulation Notes:** Verifies the state-holding behavior and proper output stabilization in response to sequential active-low set and reset signals[cite: 4, 6].
 
 ## Technologies Used
